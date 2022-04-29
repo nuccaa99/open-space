@@ -1,0 +1,114 @@
+body {
+    background-image: url("space.png");
+    margin: 0;
+
+}
+.space {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.control-panel__inner {
+    height: 350px;
+    background: linear-gradient(#010149,black);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 600px;
+
+}
+
+.control-panel {
+    margin-top: 50px;
+    height: 410px;
+    border-radius: 8px;
+    background-color: #000000;
+    background: repeating-linear-gradient( -45deg, #ffcc07, #ffcc07 5px, #000000 5px, #000000 25px );
+}
+
+input[type="password"] {
+    margin: 10px;
+    height: 30px;
+    width:50%;
+    border: 3px solid #ffcc07;
+    border-radius: 8px;
+    text-align: center;
+    align-self: center;
+    background-color:wheat;
+    color:#950000;
+}
+
+
+
+.check-buttons {
+    margin: 20px 15px 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+input[type="checkbox"] {
+    transform: scale(2);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.levers {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input[type="range"] {
+    transform: rotate(270deg);
+    width: 100px;
+
+}
+
+input[type="button"] {
+    margin-bottom: 10px;
+    width: 100px;
+    align-self: center;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #ffcc07;
+    color:#950000;
+    border: 2px solid #950000;
+    font-size: medium;
+}
+
+#launch{
+    border-radius: 50%;
+    width: 100px;
+    height: 80px;
+    background-color: #950000;
+    border: 2px solid #ffcc07;
+    color:#ffcc07;
+    font-size: large;
+}
+
+
+
+.planet-area {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.planet {
+    width: 800px;
+    z-index: 1;
+}
+
+.rocket {
+    position: absolute;
+    top: 230px;
+    left: 450px;
+    width: 150px;
+    transform: rotate(35deg);
+    z-index: 0;
+}

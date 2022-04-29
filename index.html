@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Space</title>
+    <link rel="stylesheet" href = "stylesheet.css">
+    <script async src="app.js"></script>
+
+</head>
+<body>
+   <div class = "space">
+       <div class="planet-area">
+           <img class = "planet" src = "mars.png" alt="mars">
+           <img class = "rocket" src = "rocket.png" alt="rocket">
+       </div>
+       <div class = "control-panel">
+           <div class="control-panel__inner">
+           <input id="password" type="password" name="password" placeholder="Enter password to unlock"  class="login" >
+           <input id="ok-btn" type="button" name="button" value="OK" class="button-ok">
+
+           <div class = "check-buttons">
+               <input type="checkbox" name="check-buttons" class="button-checkbox">
+               <input type="checkbox" name="check-buttons" class="button-checkbox">
+               <input type="checkbox" name="check-buttons" class="button-checkbox">
+               <input type="checkbox" name="check-buttons" class="button-checkbox">
+               <input type="checkbox" name="check-buttons" class="button-checkbox">
+               <input type="checkbox" name="check-buttons" class="button-checkbox">
+           </div>
+           <div class="levers">
+               <input type="range" name="levers" class="button-range" min="0" max="100" value="50" step="10">
+               <input type="range" name="levers" class="button-range" min="0" max="100" value="50" step="10">
+               <input type="range" name="levers" class="button-range" min="0" max="100" value="50" step="10">
+               <input type="range" name="levers" class="button-range" min="0" max="100" value="50" step="10">
+               <input type="range" name="levers" class="button-range" min="0" max="100" value="50" step="10">
+           </div>
+           <input type="button" name="button" value="Launch" id="launch">
+       </div>
+       </div>
+   </div>
+</body>
+</html>
